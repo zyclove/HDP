@@ -191,10 +191,10 @@
             <package>
               <name>hbase_${stack_version}</name>
             </package>
-            <package>
+            <!-- <package>
               <name>phoenix_${stack_version}</name>
               <condition>should_install_phoenix</condition>
-            </package>
+            </package> -->
           </packages>
         </osSpecific>
         <osSpecific>

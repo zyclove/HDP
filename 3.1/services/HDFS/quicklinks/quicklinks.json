@@ -4,7 +4,7 @@
   "configuration": {
     "protocol":
     {
-      "type":"http"
+      "type":"HTTP_ONLY"
     },
 
     "links": [
@@ -15,7 +15,7 @@
         "url":"%@://%@:%@",
         "requires_user_name": "false",
         "port":{
-          "http_property": "bdyun-beijing-tw01d0188",
+          "http_property": "dfs.namenode.http-address",
           "http_default_port": "50070",
           "https_property": "dfs.namenode.https-address",
           "https_default_port": "50470",

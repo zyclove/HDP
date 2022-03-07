@@ -20,7 +20,7 @@
             </comment>
             <!-- Version of component -->
             <version>1.5.1.2.7.4.0-118</version>
-            <selection>MANDATORY</selection>
+            <!-- <selection>MANDATORY</selection> -->
             <components>
                 <!-- In this case, there is only one master component -->
                 <component>

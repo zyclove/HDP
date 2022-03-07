@@ -4,7 +4,14 @@
   "configuration": {
     "protocol":
     {
-      "type":"http"
+      "type":"http",
+      "checks":[
+        {
+          "property":"dfs.http.policy",
+          "desired":"HTTPS_ONLY",
+          "site":"hdfs-site"
+        }
+      ]
     },
 
     "links": [
